@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Sviluppo di una pagina web developer </title>
+    <link href="./graficablog.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/logo.png" alt="logo sito web">
+        <h1> Epicode il blog dei developer </h1>
+    </header>
+    <main>
+    <nav id="menu">
+        <ul class="collegamenti">
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="index.html"> Articoli </a></li>
+            <li><a href="index.html"> Lavora con noi </a></li>
+        </ul>
+    </nav>
+    <section id="primo">
+        <h1> Come creare un template per i post </h1>
+        <h2> <em>di Mario Rossi - <span>pubblicato il 25-10-2020</span></em></h2>
+
+        <p> La prima cosa da fare è suddividere in blocchi logici la pagina,
+            separando le parti comuni a tutte le pagine da quelle specifiche
+        </p>
+        <p> Le Aree saranno suddivise in: </p>
+        <ul>
+            <li> Contenuti di intestazione del tag "header" </li>
+            <li> Contenuti centrali variabili del tag "main" (corpo principale) </li>
+            <li> Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;
+            </li>
+        </ul>
+    </section>
+    <section id="formattazione">
+        <h1> Formattazione del codice </h1>
+        <p>Il testo dell'articolo dovrà essere
+            formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+        </p>
+        <ol type="1"> <!-- I, i, a, A -->
+            <li> Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato </li>
+            <li> Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso </li>
+            <li> Applicare gli stili CSS </li>
+        </ol>
+        <p> L'applicazione di stili CSS è cresciuta negli anni fino a
+            raggiungere la diffusione pressoché totale
+        </p>
+    </section>
+    <table>
+        <thead>
+            <tr>
+                <th>Anno</th>
+                <th>% di utilizzo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 2000 </td>
+                <td> 20% </td>
+            </tr>
+            <tr>
+                <td> 2002 </td>
+                <td> 35% </td>
+            </tr>
+            <tr>
+                <td> 2004 </td>
+                <td> 45% </td>
+            </tr>
+            <tr>
+                <td> 2008 </td>
+                <td> 80% </td>
+            </tr>
+            <tr>
+                <td> 2012 </td>
+                <td> 100% </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        Un test di validazione potra essere fatto tramite il <a id="tool" href="index.html"> tool online apposito
+
+        </a> </p>
+    <p id="vuoi"> Vuoi rimanere aggiornato su altre novita del blog? Iscriviti alla nostra newsletter:
+    <form>
+        <fieldset>
+            <input type="email" placeholder="inserisci mail">
+            <input type="submit" value="ISCRIVITI">
+        </fieldset>
+    </form>
+    </p>
+    </main>
+    <header id="articoli">
+        <h1> Articoli correlati </h1>
+    </header>
+    <section>
+        <div>
+            <p> <a href="index.html"> Validare il codice html
+                </a>
+            </p>
+            <p> Categoria: develop </p>
+            <p class="tre"> Data: 18-9-2020 </p>
+
+        </div>
+        <div>
+            <p> <a href="index.hmtl"> Correggere la sintassi </a> </p>
+            <p> Categoria: develop </p>
+            <p class="tre"> Data: 16-9-2020 </p>
+
+        </div>
+        <div>
+            <p> <a href="index.hmtl"> Meno Kb nella pagina </a> </p>
+            <p> Categoria: ottimizzazione </p>
+            <p class="tre"> Data: 30-9-2020 </p>
+        </div>
+    </section>
+    <footer>
+        <p> Blog Develop ©2020 </p>
+        <p> Testata online di Mario Rossi, registrata con n.213/2018
+        con sede in via Luigi Einaudi 2 - Milano. <br>
+        P.IVA 00112233 
+        <a href="index.html"> info@blogdevelop.it </a>
+        </p>
+    </footer>
+</body>
+
+</html>
