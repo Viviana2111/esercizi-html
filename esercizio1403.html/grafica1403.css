@@ -1,0 +1,77 @@
+html {
+    font-size: 90%   
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: .9em;
+    width: 90vw;
+}
+
+header { 
+    text-align: center;
+    background-color: #E6E6FA;
+    border-bottom: #191970 solid 6px; 
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header h2 {
+    font-size: 0.8rem ;
+    color: #191970;
+}
+
+main {
+    border-left: #787878 solid 1px ;
+    border-right: #787878 solid 1px ;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-bottom: #787878 dashed 2px;
+    padding-bottom: 1em;
+}
+
+main h1 { 
+    text-align: center;
+}
+#cit, #cit1 {
+    text-align: right;
+    font-style: italic;
+} 
+
+#formazione {
+    border-bottom: #787878 dashed 2px ;
+}
+
+section h1{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+section h2 {
+    font-size: 1em;
+}
+span {
+    color: #191970;
+    font-weight: bold;
+}
+
+#competenze {
+    background-color: #E6E6FA;
+}
+
+#operative {
+    background-color: #fffacd;
+}
+
+div {
+    margin-left: 3em;
+}
+
+footer {
+    background-color: #191970;
+    text-align: center;
+    color: white;
+}
